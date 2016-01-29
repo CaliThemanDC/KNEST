@@ -1,0 +1,160 @@
+	
+	body {
+		font-family: helvetica, arial;
+		background-color: hsla(0, 0%, 0%, 0.82);
+		color: white;
+		padding: 0;
+		margin: 0;
+		
+	}
+
+	header {
+		max-height: 40px;
+		margin-top: 0px;
+		padding-top: 0px;
+	}
+	header>nav {
+		color: rgba(174, 177, 159, 0.79);
+		width: 100%;
+	}
+	ul.left {
+		width: 48%;	
+	}
+	ul.left>li>a {
+		color: rgba(174, 177, 159, 0.79);
+	}
+
+	address.right {
+		width: 40%;
+		text-align: center;
+		vertical-align: center;
+		border-top: 15px;
+		display: inline-block;
+	}
+	div#Home {
+		background:
+			url(../img/businessman.jpg)
+			no-repeat top center;
+		padding: 0;
+		min-height: 650px;
+
+	}
+
+	section.KNEST {
+		max-width: 700px;
+		margin: 0px 30px;
+		padding-top: 100px;
+		
+
+	}
+
+	div#title {
+
+		background-color: hsla(100, 62%, 58%, .78);
+		width: 102px;
+		border-color: white;
+		border-style: solid;
+		border-radius: .1px;
+
+	}
+	h1#Green {
+		padding-left: 10%;
+		font-size: 4em;
+	}
+
+	h3#Blue {
+		font-weight: 500;
+		letter-spacing: .5em;
+		font-style: italic;
+		color: hsla(53, 67%, 54%, 0.97);
+	}
+
+	section.Services {
+		max-width: 650px;
+		margin: 0 20px;
+	}
+	div#header {
+		padding-top: 100px;
+		padding-bottom: 20px;
+	}
+
+	div#header>h2 {
+		padding-top: 10px;
+		padding-bottom: 10px;
+		font-size: 1.5em;
+		font-family: arial;
+		font-weight: 200;
+		margin: 0 auto;
+		width: 500px;
+		text-align: center;
+		background-color: rgba(230, 224, 37, 0.35);
+		border-radius: 2em;
+	}
+
+	nav {
+		width: 100%;
+	}
+	nav>ul {
+		padding-left: 110px;
+	}
+	section.Services li {
+		padding-right: 60px;
+		letter-spacing: .3em;
+	}
+
+	nav, ul, li, a{
+		list-style: none;
+		color: white;
+		text-decoration: none;
+		display: inline-block;
+
+	}
+
+	div#Team {
+
+		max-width: 1080px;
+		min-height: 620px;
+		margin: 10px auto;
+		
+	}
+
+	div#Team>article {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	div#Team>article>h3 {
+		font-size: 3.5em;
+		font-weight: 100;
+		color: pink;
+		width: 260px;
+		border-radius: .3em;
+		border-right-style: double;
+		border-left-style: double;
+		padding-left: 20px;
+		padding-right: 10px;
+
+	}
+
+
+	div.teamMember {
+		width: 32%;
+		min-width: 220px;
+		margin: 0 0;
+		margin-right: 10px;
+		display: inline-block;
+		font-family: arial;
+		font-weight: 200;
+		line-height: 20px;
+		
+	}
+	div.teamMember>img {
+		max-width: 250px;
+		max-height: 250px;
+		border-radius: 7em .4em;
+		border-color: white;
+		border-style: solid;
+	}
+
+	.ImgUp {
+		height: 270px;
+	}
